@@ -1,14 +1,6 @@
-#include <stdio.h>
-#include <time.h>
-#include <conio.h>
-
-#include "constants.h"
-#include "structs.h"
-#include "functions/cmdio.h"
-#include "functions/setup.h"
-#include "functions/input.h"
-#include "functions/process.h"
-#include "functions/end.h"
+#include <windows.h> // Sleep()
+#include "config.h"
+#include "snake.h"   // setup() input() process() end() and structs
 
 int main(void)
 {

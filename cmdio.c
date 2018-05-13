@@ -1,8 +1,7 @@
-#ifndef CMDIO
-#define CMDIO
-
 #include <windows.h>
 #include <stdio.h>
+#include "config.h"
+#include "cmdio.h"
 
 // Write a char to the cmd prompt using coordinates
 void cmd_write(int x, int y, char c)
@@ -24,5 +23,3 @@ char cmd_read(int x, int y)
 	ReadConsoleOutputCharacter(h, &out, 1, coord, &num_read);
 	return out;
 }
-
-#endif

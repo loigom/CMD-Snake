@@ -1,5 +1,5 @@
-#ifndef CONSTANTS
-#define CONSTANTS
+#ifndef CONFIG
+#define CONFIG
 
 #define RES_X 40
 #define RES_Y 20
