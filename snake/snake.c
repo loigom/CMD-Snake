@@ -3,8 +3,8 @@
 #include <conio.h>  // getch() kbhit()
 #include <string.h> // strlen()
 #include <stdlib.h> // itoa()
-#include "config.h"
-#include "cmdio.h"  // cmd_write() cmd_read()
+#include "..\config.h"
+#include "..\cmdio\cmdio.h"  // cmd_write() cmd_read()
 #include "snake.h"
 
 // Draw the initial grid, initialize structures, initial drawing

@@ -1,6 +1,6 @@
 #include <windows.h>
 #include <stdio.h>
-#include "config.h"
+#include "..\config.h"
 #include "cmdio.h"
 
 // Write a char to the cmd prompt using coordinates

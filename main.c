@@ -1,6 +1,6 @@
 #include <windows.h> // Sleep()
 #include "config.h"
-#include "snake.h"   // setup() input() process() end() and structs
+#include "snake\snake.h"   // setup() input() process() end() and structs
 
 int main(void)
 {
